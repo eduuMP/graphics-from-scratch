@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphics-lab"
+version = "0.1.0"
+description = "Line drawing algorithms and 2D transformations with customtkinter"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "customtkinter>=6.0.0",
+    "numpy>=2.4",
+]
+
+[project.scripts]
+graphics-lab = "graphics_lab.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+graphics_lab = ["assets/*.cur"]

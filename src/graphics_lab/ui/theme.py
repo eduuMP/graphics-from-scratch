@@ -1,0 +1,11 @@
+from graphics_lab import constants as c
+
+# (light, dark) pairs, customtkinter picks one depending on the mode
+BACKGROUND = (c.WINDOW_BG_LIGHT, c.WINDOW_BG_DARK)
+PANEL = (c.PANEL_BG_LIGHT, c.PANEL_BG_DARK)
+TEXT = (c.BLACK, c.TEXT_DARK)
+TEXT_2 = (c.SECONDARY_TEXT_LIGHT, c.SECONDARY_TEXT_DARK)
+ACCENT = (c.ACCENT_LIGHT, c.ACCENT_DARK)
+ACCENT_2 = (c.ACCENT_HOVER_LIGHT, c.ACCENT_HOVER_DARK)
+CANVAS = (c.CANVAS_BG_LIGHT, c.CANVAS_BG_DARK)
+BORDER = (c.BORDER_LIGHT, c.BORDER_DARK)

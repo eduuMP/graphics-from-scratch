@@ -1,0 +1,29 @@
+# virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# editors
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# documentation (course pdfs)
+docs/
+
+# old ttk version
+main_alfa.py
+
+# Claude Code
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+.mcp.json
